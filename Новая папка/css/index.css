@@ -1,0 +1,144 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+
+/*Row 3*/
+.wrapper3 {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+.redExample3 {
+  background-color: red;
+  height: 60px;
+  width: 80px;
+}
+.blueExample3 {
+  background-color: blue;
+  height: 60px;
+  width: 80px;
+}
+/*Row 4*/
+.emptyExample4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  background-color: red;
+}
+
+/*Row 5*/
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  height: 35px;
+  width: 35px;
+  background-color: red;
+}
+
+/*Row 6*/
+.wrapper6 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle {
+  height: 60px;
+  width: 80px;
+  background-color: blue;
+}
+/*Row 7*/
+.wrapper7 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+.redExample7 {
+  height: 100%;
+  background-color: red;
+  width: 5%;
+}
+.greenExample {
+  height: 20px;
+  width: 95%;
+  background-color: green;
+}
+/*Row 8*/
+.wrapper8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.yellowbox {
+  width: 80px;
+  height: 100%;
+  background-color: yellow;
+}
+/*Row 9*/
+.wrapper9 {
+  display: flex;
+  height: 60px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+.yellowbox1 {
+  width: 20px;
+  height: 100%;
+  background-color: green;
+}
